@@ -1,0 +1,42 @@
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .produtos{
+		width: auto;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	h1 img {
+		max-width: 25%;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+	}
+	nav a{
+		font-size: 1em;
+	}
+
+	.produtos ul{
+		position: block;
+		margin: 0;
+		width: auto;
+	}
+	.produtos li{
+		position: inline-block;
+		width: auto;
+		margin: 2%;
+	}
+
+	.produtos h2 {
+		font-size: 1.3em;
+	}
+	
+	.produtos img{
+		max-width: 70%;
+	}
+}
